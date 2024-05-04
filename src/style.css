@@ -1,1 +1,44 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #0e7e12;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card {
+  background-color: white;
+  margin: auto;
+  height: 500px;
+  width: 350px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+}
+#topLogo {
+  font-size: 80px;
+  text-align: left;
+}
+#number {
+  text-align: center;
+  font-size: 50px;
+}
+#bottomLogo {
+  flex-direction: column;
+  justify-content: end;
+  font-size: 100px;
+  text-align: right;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
